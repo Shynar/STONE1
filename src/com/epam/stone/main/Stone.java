@@ -42,12 +42,4 @@ public abstract class Stone {
         this.price = price;
     }
 
-    @Override
-    public String toString() {
-        return "Stone{" +
-                "name='" + name + '\'' +
-                ", weight=" + weight +
-                ", price=" + price +
-                '}';
-    }
 }
